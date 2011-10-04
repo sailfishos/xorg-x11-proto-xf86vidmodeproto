@@ -1,0 +1,16 @@
+Name: xorg-x11-proto-xf86vidmodeproto
+Summary: X.Org X11 Protocol xf86vidmodeproto
+Description: |
+  This extension defines a protocol for dynamically configuring modelines and gamma
+Version: 2.3.1
+Release: 0
+Group: Development/System
+License: MIT
+URL: http://www.x.org
+Sources:
+    - http://xorg.freedesktop.org/releases/individual/proto/xf86vidmodeproto-%{version}.tar.bz2
+
+Provides: xf86vidmodeproto
+Configure: configure
+ConfigOptions:
+    - --libdir=%{_datadir}
